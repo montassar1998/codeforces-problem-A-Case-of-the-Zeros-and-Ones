@@ -1,0 +1,5 @@
+n=input()
+ch=raw_input()
+ch=list(ch)
+ch=abs(ch.count("0")-ch.count("1"))
+print (ch)
